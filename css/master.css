@@ -29,7 +29,12 @@ body{
     align-items: center;
     flex-wrap: nowrap;
 }
-.my-Section .wrapper span:not(:nth-of-type(2)){
+.my-Section .images-container{
+    width: 480px;
+    height: 480px;
+    overflow: hidden;
+}
+.my-Section .wrapper .button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,14 +49,13 @@ body{
     background: #313fc2;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-.my-Section span:not(:nth-of-type(2)):hover{
+.my-Section .button:hover{
     background: #091688;
     color: white;
 }
-.my-Section .images-container{
-    width: 480px;
-    height: 480px;
-    overflow: hidden;
+.my-Section .button:active,
+.my-Section .button:focus{
+    transform: scale(1.1);
 }
 .my-Section .images-container .carousel{
     display: flex;
