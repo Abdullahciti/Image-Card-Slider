@@ -1,6 +1,6 @@
 let wrapper = document.querySelector(".wrapper"),
 imagesContainer = document.querySelector(".images-container"),
-buttons = document.querySelectorAll("i"),
+buttons = document.querySelectorAll(".button"),
 imgs = Array.from(document.querySelectorAll("img"))
 bulletsContainer = document.querySelector(".bullets ul"),
 carousel = document.querySelector(".carousel");
